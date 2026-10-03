@@ -1,0 +1,34 @@
+{
+  "event_date": "2026-08-26",
+  "snapshot_date": "2026-08-25",
+  "bbox": [
+    85.1,
+    27.85,
+    85.45,
+    28.3
+  ],
+  "api": "https://api.heigit.org/ohsome-api/v2-rc",
+  "layers": {
+    "buildings": {
+      "features": 106924,
+      "file": "buildings_2026-08-25.parquet"
+    },
+    "roads": {
+      "features": 7375,
+      "file": "roads_2026-08-25.parquet"
+    },
+    "bridges": {
+      "features": 223,
+      "file": "bridges_2026-08-25.parquet"
+    },
+    "settlements": {
+      "features": 247,
+      "file": "settlements_2026-08-25.parquet"
+    },
+    "health": {
+      "features": 17,
+      "file": "health_2026-08-25.parquet"
+    }
+  },
+  "attribution": "\u00a9 OpenStreetMap contributors"
+}
